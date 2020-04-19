@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
+    "openweather-apis": "^4.2.0",
     "telegraf": "^3.37.0"
   },
   "devDependencies": {
