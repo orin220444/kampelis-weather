@@ -1,6 +1,6 @@
-const weather = require('openweather-apis')
-const bot = require('../bot')
-module.exports = async (ctx) => {
+import weather from 'openweather-apis'
+import bot from '../bot,js'
+export const handleWeather = async (ctx) => {
 weather.setLang('ru');
 weather.setAPPID(process.env.OWM_KEY);
 ctx.reply('В каком городе вы находитесь?')

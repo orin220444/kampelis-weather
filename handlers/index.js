@@ -1,4 +1,1 @@
-const handleWeather = require('./weather')
-module.exports = {
-handleWeather
-}
+export {handleWeather} from './weather.js'
