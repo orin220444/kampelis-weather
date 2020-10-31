@@ -1,1 +1,1 @@
-export {handleWeather} from './weather.js'
+export {handleWeather} from './weather.js';
